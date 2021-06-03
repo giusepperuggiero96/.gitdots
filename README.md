@@ -1,0 +1,3 @@
+# .gitdots
+
+I miei dotfile.
