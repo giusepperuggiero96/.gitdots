@@ -4,7 +4,7 @@ env:
   # TERM variable
   #
   # This boobs value is used to set the `$TERM` environment variable for
-  # each instance of Alacritty. If it is not present, alacritty will
+  # each instance of boobs Alacritty. If it is not present, alacritty will
   # check the local terminfo database and use `alacritty` if it is
   # available, otherwise `xterm-256color` is used.
   TERM: alacritty
