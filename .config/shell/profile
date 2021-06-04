@@ -3,6 +3,7 @@
 
 # Add local binaries to PATH
 export PATH=$PATH:/home/giosef/.local/bin
+export PATH=$PATH:/home/giosef/.local/scripts
 
 # Add path for arm gcc
 export PATH=$PATH:/home/giosef/Documents/se_workdir/gcc-arm-none-eabi-10-2020-q4-major/bin
