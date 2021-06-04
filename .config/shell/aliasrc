@@ -1,0 +1,66 @@
+# ALIAS
+# sudo alias
+alias sudo="sudo "
+
+# Nvim alias
+alias vim="nvim"
+
+# cp verbose
+alias cp="cp -v"
+
+# rm alias
+alias rm="rm -vI"
+
+# Brightness alias
+alias brightness="brightness-controller"
+
+# Volume alias
+alias volume="ncpamixer"
+
+# lf alias
+alias lf="lf-ueberzug"
+
+# ls alias
+alias ll="ls -lhA"
+
+# df alias
+alias df="df -h --total"
+
+# free alias
+alias free="free -mt"
+
+# ps alias
+alias ps="ps auxf"
+
+# ps search process by name alias
+alias pss="ps aux | grep -v grep | grep -i -e VSZ -e"
+
+# mkdir make necessary parent alias
+alias mkdir="mkdir -vp"
+
+# top to htop
+alias top="htop"
+
+# du to ncdu
+alias du="ncdu"
+
+# screenshots in appropriate folder
+alias scrot="scrot ~/Documents/Screenshots/%Y%b%d_%H:%M:%S.png"
+
+# sudo pacman
+alias pac="sudo pacman"
+
+# sudo lf
+alias slf="sudo /usr/bin/lf"
+
+# shutdown
+alias sdn="shutdown -h now"
+
+# openocd
+alias openocd="openocd -f board/stm32f4discovery.cfg"
+
+# .gitdots alias
+alias config="/usr/bin/git --git-dir=$HOME/.gitdots --work-tree=$HOME"
+
+# add only modified files to gitdots
+alias confadd="config add -u"
